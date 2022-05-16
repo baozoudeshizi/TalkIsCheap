@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDC.DesignPattern.Observer
+namespace DesignPattern.Observer
 {
     /// <summary>
     /// 抽象观察类 - IObserver接口
@@ -12,7 +12,7 @@ namespace EDC.DesignPattern.Observer
     public interface IObserver
     {
         string Name { get; set; }
-        void Help();                                                                // 声明支援盟友的方法
+        void Help();                                 // 声明支援盟友的方法
         void BeAttacked(AllyControlCenter acc);     // 声明遭受攻击的方法
     }
 }

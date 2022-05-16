@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDC.DesignPattern.Observer
+namespace DesignPattern.Observer
 {
     /// <summary>
     /// 抽象目标类：战队控制中心
@@ -12,6 +12,7 @@ namespace EDC.DesignPattern.Observer
     public abstract class AllyControlCenter
     {
         public string AllyName { get; set; }
+        //定义为protected，只让子类实现。避免让外部类调用。
         protected IList<IObserver> playerList = new List<IObserver>();
 
         public void Join(IObserver observer)

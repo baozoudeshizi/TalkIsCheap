@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDC.DesignPattern.Observer
+namespace DesignPattern.Observer
 {
     public class Program
     {

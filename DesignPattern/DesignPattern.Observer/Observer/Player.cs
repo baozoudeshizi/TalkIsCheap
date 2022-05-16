@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EDC.DesignPattern.Observer
+namespace DesignPattern.Observer
 {
     /// <summary>
     /// 具体观察者类：战队成员
